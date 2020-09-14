@@ -1,0 +1,286 @@
+/*--- GENERAL SETTINGS ---*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bolder;
+}
+
+section {
+    padding: 4% 12%;
+}
+
+/*--- HEADER ---*/
+
+header {
+    background-color: #FF6900;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+/*--- NAVIGATION ---*/
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navigationBar {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #FF6900;
+    color: white;
+    font-weight: bold;
+}
+
+.navigationBar li {
+    padding: 10px 1.5%;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+}
+
+.navigationBar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*--- SEZIONI ---*/
+
+.infoSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circleContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    flex: 1 350px;
+}
+
+.infoSection img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.infoSection p {
+    font-size: 2.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+ .section__text {
+    flex: 1 380px;
+    margin: 0 4%;
+}
+
+.presentazione {
+    background-color: whitesmoke;
+    /* background: linear-gradient(whitesmoke 95%, transparent 49%), linear-gradient(-45deg, #9D011B 33%, transparent 33%) 0 100%, #9D011B linear-gradient(45deg, #9D011B 33%, whitesmoke 33%) 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px; */
+}
+
+.gustiSection {
+    color: white;
+    background-color: #9D011B;
+    /* background: linear-gradient(#9D011B 97%, transparent 49%), linear-gradient(-45deg, whitesmoke 33%, transparent 33%) 0 100%, whitesmoke linear-gradient(45deg, whitesmoke 33%, #9D011B 33%) 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px; */
+}
+
+.onTheRoad {
+    flex-direction: row-reverse;
+    background-color: whitesmoke;
+    /* background: linear-gradient(whitesmoke 95%, transparent 49%), linear-gradient(-45deg, #FFAD20 33%, transparent 33%) 0 100%, #FFAD20 linear-gradient(45deg, #FFAD20 33%, whitesmoke 33%) 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px; */
+}
+
+.trackTheTruck {
+    background-color: #FFAD20;
+    /* background: linear-gradient(#FFAD20 97%, transparent 49%), linear-gradient(-45deg, whitesmoke 33%, transparent 33%) 0 100%, whitesmoke linear-gradient(45deg, whitesmoke 33%, #FFAD20 33%) 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 99%, 40px 40px, 40px 40px; */
+}
+
+/*--- GUSTI ---*/
+
+.gustiContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gustoCard img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    border-bottom-style: dashed;
+}
+
+.gustoCard p {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.gustoCard {
+    margin: 30px;
+    flex: 1;
+}
+
+/*--- CONTATTI ---*/
+
+.contattiSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+address {
+    flex: 1 270px;
+    padding: 0 20px;
+    font-style: inherit;
+}
+
+address h2 {
+    text-align: left;
+    padding-top: 0;
+}
+
+address p {
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+#sede {
+    background: url("../src/imgs/marker.png");
+    background-repeat: no-repeat;
+}
+
+#tel {
+    background: url("../src/imgs/phone.png");
+    background-repeat: no-repeat;
+}
+
+#orari {
+    background: url("../src/imgs/clock.png");
+    background-repeat: no-repeat;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.shopMap {
+    flex: 2 420px;
+    padding: 0 20px;
+}
+
+form {
+    flex: 1 350px;
+    display: grid;
+    gap: 10px 10px;
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+form * {
+    padding: 0 10px;
+    height: 50px;
+}
+
+textarea {
+    height: 100px;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+form p {
+    font-size: 2.5rem;
+    height: fit-content;
+    margin: 0;
+}
+
+button {
+    font-family: inherit;
+    font-size: 2.8rem;
+    font-weight: bold;
+    background-color: #9D011B;
+    color: white;
+    border: 1px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #860016;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+/*--- FOOTER ---*/
+
+footer {
+    background-color: #9D011B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

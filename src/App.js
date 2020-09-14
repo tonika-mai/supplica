@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './styles.css';
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+import Sezione from "./components/Sezione";
+import Gusti from "./components/Gusti";
+import Contatti from "./components/Contatti";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { presentazione, onTheRoad, trackTheTruck } from "./data";
 
-export default App;
+export default function App() {
+    return (
+        <div>
+            <Header />
+            <NavBar />
+            <main>
+                <Sezione data={presentazione} />
+                <Gusti />
+                <Sezione data={onTheRoad} />
+                <Sezione data={trackTheTruck} />
+            </main>
+            <Contatti />
+            <Footer />
+        </div>
+    )
+};
