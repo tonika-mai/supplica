@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/supplica/static/js/main.41a5a8ed.chunk.js",
-    "main.js.map": "/supplica/static/js/main.41a5a8ed.chunk.js.map",
+    "main.css": "/supplica/static/css/main.496f9f36.chunk.css",
+    "main.js": "/supplica/static/js/main.f427b31c.chunk.js",
+    "main.js.map": "/supplica/static/js/main.f427b31c.chunk.js.map",
     "runtime-main.js": "/supplica/static/js/runtime-main.49d2ddbe.js",
     "runtime-main.js.map": "/supplica/static/js/runtime-main.49d2ddbe.js.map",
     "static/js/2.ffdc766f.chunk.js": "/supplica/static/js/2.ffdc766f.chunk.js",
     "static/js/2.ffdc766f.chunk.js.map": "/supplica/static/js/2.ffdc766f.chunk.js.map",
     "index.html": "/supplica/index.html",
-    "precache-manifest.20d137faea16e5f27295477aacb9240c.js": "/supplica/precache-manifest.20d137faea16e5f27295477aacb9240c.js",
+    "precache-manifest.dff9606de492ca9623c7081482536c45.js": "/supplica/precache-manifest.dff9606de492ca9623c7081482536c45.js",
     "service-worker.js": "/supplica/service-worker.js",
+    "static/css/main.496f9f36.chunk.css.map": "/supplica/static/css/main.496f9f36.chunk.css.map",
     "static/js/2.ffdc766f.chunk.js.LICENSE.txt": "/supplica/static/js/2.ffdc766f.chunk.js.LICENSE.txt",
     "static/media/cozze-patate_cropped.jpg": "/supplica/static/media/cozze-patate_cropped.b11c4169.jpg",
     "static/media/foodTruck_orange_square.jpg": "/supplica/static/media/foodTruck_orange_square.007c0ddc.jpg",
@@ -28,6 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.49d2ddbe.js",
     "static/js/2.ffdc766f.chunk.js",
-    "static/js/main.41a5a8ed.chunk.js"
+    "static/css/main.496f9f36.chunk.css",
+    "static/js/main.f427b31c.chunk.js"
   ]
 }
