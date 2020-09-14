@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/supplica/static/js/main.465e3672.chunk.js",
+    "main.js.map": "/supplica/static/js/main.465e3672.chunk.js.map",
+    "runtime-main.js": "/supplica/static/js/runtime-main.49d2ddbe.js",
+    "runtime-main.js.map": "/supplica/static/js/runtime-main.49d2ddbe.js.map",
+    "static/js/2.c934c855.chunk.js": "/supplica/static/js/2.c934c855.chunk.js",
+    "static/js/2.c934c855.chunk.js.map": "/supplica/static/js/2.c934c855.chunk.js.map",
+    "index.html": "/supplica/index.html",
+    "precache-manifest.828ae60114ebda57bed16e869af04158.js": "/supplica/precache-manifest.828ae60114ebda57bed16e869af04158.js",
+    "service-worker.js": "/supplica/service-worker.js",
+    "static/js/2.c934c855.chunk.js.LICENSE.txt": "/supplica/static/js/2.c934c855.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49d2ddbe.js",
+    "static/js/2.c934c855.chunk.js",
+    "static/js/main.465e3672.chunk.js"
+  ]
+}
